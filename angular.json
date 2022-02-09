@@ -25,9 +25,10 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
+            
               {
                 "glob":"bootstrap-icons.svg",
-                "input":"./node_modules/bootstrap_icons/",
+                "input":"./node_modules/bootstrap-icons/",
                 "output": "/assets/"
               }
             ],
@@ -37,7 +38,7 @@
 
             ],
             "scripts": [
-              "./node_modules/bootstrap/dist/js/bootstrap.js"
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
 
             ]
           },
