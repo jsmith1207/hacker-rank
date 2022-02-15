@@ -1,0 +1,21 @@
+.fl-col-content {
+    background: linear-gradient(93.4deg, #1F3D83 8.16%, #00A7DA 37.71%, #00C897 64.19%, #1BA94C 87.62%, #068932 99.34%);
+    position: relative;
+    z-index: 2;
+}
+.fl-col-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fl-col-content {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 50%);
+}
+.hr__dsp {
+    color: #FFFFFF;
+    position: relative;
+}

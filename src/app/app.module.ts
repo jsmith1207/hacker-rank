@@ -9,6 +9,8 @@ import { AppComponent } from './app.component';
 import { BottomNavBarComponent } from './navigation/bottomnavbar.component';
 import { FooterComponent } from './navigation/footer.component';
 import { CarouselComponent } from './Information/carousel.component';
+import { TopCartComponent } from './Body/topcart.component';
+import { HeroOneComponent } from './Body/heroone.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { CarouselComponent } from './Information/carousel.component';
     ImgBarComponent,
     BottomNavBarComponent,
     FooterComponent,
-    CarouselComponent
+    CarouselComponent,
+    TopCartComponent,
+    HeroOneComponent
   ],
   imports: [
     BrowserModule
