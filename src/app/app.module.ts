@@ -4,13 +4,17 @@ import { MainNavBarComponent } from 'src/app/navigation/mainnavbar.component';
 import { TopNavBarComponent } from 'src/app/navigation/topnavbar.component';
 import { MidTextComponent } from './Body/midtext.component';
 import { ImgBarComponent } from './Information/imgbar.component';
-
 import { AppComponent } from './app.component';
 import { BottomNavBarComponent } from './navigation/bottomnavbar.component';
 import { FooterComponent } from './navigation/footer.component';
 import { CarouselComponent } from './Information/carousel.component';
 import { TopCartComponent } from './Body/topcart.component';
 import { HeroOneComponent } from './Body/heroone.component';
+import { AppRoutingModule } from './app-routing.module';
+import { LoginComponent } from './Access/login.component';
+import { HomeLayoutComponent } from './Home Layout/home-layout.component';
+import { SignupComponent } from './Access/signup.component';
+import { DemoRequestComponent } from './Access/demo-request.component';
 
 @NgModule({
   declarations: [
@@ -23,10 +27,15 @@ import { HeroOneComponent } from './Body/heroone.component';
     FooterComponent,
     CarouselComponent,
     TopCartComponent,
-    HeroOneComponent
+    HeroOneComponent,
+    LoginComponent,
+    SignupComponent,
+    DemoRequestComponent,
+    HomeLayoutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
