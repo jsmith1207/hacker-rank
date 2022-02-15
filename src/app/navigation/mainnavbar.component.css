@@ -1,0 +1,46 @@
+a.nav-link.active {
+  border-bottom-style: solid;
+  border-color: #33CC66 ;
+  border-width: medium ;
+  position: relative;
+  text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.35em;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+a.nav-link.active.dropdown-item{
+      border-bottom: none !important;
+    color: #39424e;
+    font-size: 18.005px;
+    padding: 0.639em 7.778em 0.639em 2.077em;
+    display: block;
+    white-space: nowrap;
+  
+}
+a.button2{
+  background-color: #33CC66; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.167em;
+  padding: 0.429em 1.429em;
+  display: block;
+  word-spacing: 0;
+  height: 40px;
+}
+a.nav-link.mr-auto{
+  color: black;
+  font-size: 1.167em;
+  font-family: "Open Sans", sans-serif;
+  margin-right: auto;
+}
