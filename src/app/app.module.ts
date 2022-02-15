@@ -6,6 +6,8 @@ import { MidTextComponent } from './Body/midtext.component';
 import { ImgBarComponent } from './Information/imgbar.component';
 
 import { AppComponent } from './app.component';
+import { BottomNavBarComponent } from './navigation/bottomnavbar.component';
+import { FooterComponent } from './navigation/footer.component';
 
 @NgModule({
   declarations: [
@@ -13,8 +15,9 @@ import { AppComponent } from './app.component';
     TopNavBarComponent,
     MainNavBarComponent,
     MidTextComponent,
-    ImgBarComponent
-  
+    ImgBarComponent,
+    BottomNavBarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
