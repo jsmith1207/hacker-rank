@@ -1,0 +1,9 @@
+Main features:
+Create layout component named “layout-main” using Bootstrap flex-row and flex-col
+Added the following attributes to the class “some_typescript_file.ts”:
+Attribute 1
+Attribute 2
+Attribute 3
+Bonus Features:
+Implemented new accordion component named “helpful-accordion”
+Implemented an additional layout component, “layout-sidebar”, to simplify the code for the sidebar.
