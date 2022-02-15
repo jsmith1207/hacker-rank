@@ -1,9 +1,11 @@
 Main features:
-Create layout component named “layout-main” using Bootstrap flex-row and flex-col
-Added the following attributes to the class “some_typescript_file.ts”:
-Attribute 1
-Attribute 2
-Attribute 3
-Bonus Features:
-Implemented new accordion component named “helpful-accordion”
-Implemented an additional layout component, “layout-sidebar”, to simplify the code for the sidebar.
+Built Base Home Layout for hackerrank.com 
+It included attributes such as:
+"TopNavBar", "MainNavBar", "ImgBar", "Footer" and "Information Sections"
+Also added 3 new layouts:
+"SignupComponent"
+"LoginComponent"
+"DemoRequestComponent"
+Using links throughout the home page I constructed 3 routes to those layouts
+
+Will be refactoring to better code functionality
