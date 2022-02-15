@@ -8,6 +8,7 @@ import { ImgBarComponent } from './Information/imgbar.component';
 import { AppComponent } from './app.component';
 import { BottomNavBarComponent } from './navigation/bottomnavbar.component';
 import { FooterComponent } from './navigation/footer.component';
+import { CarouselComponent } from './Information/carousel.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FooterComponent } from './navigation/footer.component';
     MidTextComponent,
     ImgBarComponent,
     BottomNavBarComponent,
-    FooterComponent
+    FooterComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule

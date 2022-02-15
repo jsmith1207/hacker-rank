@@ -1,13 +1,31 @@
-.container {
-    height: 200px;
-    position: relative;
-    border: 3px solid green;
-  }
-  
-  .vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
+.h1{
+  font-size: 26px;
+  text-indent: -0.074em;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 50px;
+}
+
+.f1{
+  color: #FFFFFF;
+  border: 3px solid #33CC66;
+  background-color: #33CC66;
+  font-size: 18.005px;
+  padding-left: 1.528em;
+  padding-right: 1.528em;
+  box-sizing: border-box;
+}
+
+.f2{
+  color: #33CC66;
+  border: 3px solid #33CC66;
+  font-size: 18.005px;
+  padding-left: 1.528em;
+  padding-right: 1.528em;
+}
+div.container{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+div.text{
+  padding-top: 25px;
+}
