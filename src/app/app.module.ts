@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { MainNavBarComponent } from 'src/navigation/mainnavbar.component';
-import { TopNavBarComponent } from 'src/navigation/topnavbar.component';
+import { MainNavBarComponent } from 'src/app/navigation/mainnavbar.component';
+import { TopNavBarComponent } from 'src/app/navigation/topnavbar.component';
+import { MidTextComponent } from './Body/midtext.component';
 
 import { AppComponent } from './app.component';
 
@@ -10,7 +11,7 @@ import { AppComponent } from './app.component';
     AppComponent,
     TopNavBarComponent,
     MainNavBarComponent,
-  
+    MidTextComponent
   
   ],
   imports: [
