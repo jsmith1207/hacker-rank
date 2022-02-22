@@ -1,11 +1,9 @@
 Main features:
-Built Base Home Layout for hackerrank.com 
-It included attributes such as:
-"TopNavBar", "MainNavBar", "ImgBar", "Footer" and "Information Sections"
-Also added 3 new layouts:
-"SignupComponent"
-"LoginComponent"
-"DemoRequestComponent"
+Edited 2 layouts:
+"homelayoutcomponent"- I created a new layout component adding a Navbar, footer and a features component. This had to be done because the initial page I was building was the products page and not the initial home page. I assumed it was due to the abundance of info on that page 
+"productlayoutcomponent"- This used to be the home page now is a seperate page layout. Created hero components along with two card components
+Created 1 new layout:
+"ourteamcomponent"- I routed a navbar link to this page. Created our team cards using 2 attributes name and position
 Using links throughout the home page I constructed 3 routes to those layouts
 
 Will be refactoring to better code functionality
