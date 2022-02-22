@@ -17,6 +17,7 @@ import { SignupComponent } from './Access/signup.component';
 import { DemoRequestComponent } from './Access/demo-request.component';
 import { OurTeamComponent } from './Company/our-team.component';
 import { CardGroupomponent } from './Home Layout/Information/cardgroup.component';
+import { ResourcesCardsComponent } from './Home Layout/navigation/resourcescards.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { CardGroupomponent } from './Home Layout/Information/cardgroup.component
     DemoRequestComponent,
     HomeLayoutComponent,
     OurTeamComponent,
-    CardGroupomponent
+    CardGroupomponent,
+    ResourcesCardsComponent
   ],
   imports: [
     BrowserModule,
