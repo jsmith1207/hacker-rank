@@ -18,6 +18,7 @@ import { DemoRequestComponent } from './Access/demo-request.component';
 import { OurTeamComponent } from './Company/our-team.component';
 import { CardGroupomponent } from './Home Layout/Information/cardgroup.component';
 import { ResourcesCardsComponent } from './Home Layout/navigation/resourcescards.component';
+import { FreeTrailComponent } from './FreeTrail/freetrail.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { ResourcesCardsComponent } from './Home Layout/navigation/resourcescards
     HomeLayoutComponent,
     OurTeamComponent,
     CardGroupomponent,
-    ResourcesCardsComponent
+    ResourcesCardsComponent,
+    FreeTrailComponent
   ],
   imports: [
     BrowserModule,
