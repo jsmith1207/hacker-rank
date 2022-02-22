@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './Access/login.component';
-import { HomeLayoutComponent } from './Home Layout/home-layout.component';
+import { HomeLayoutComponent } from './ProductsPage/home-layout.component';
 import { SignupComponent } from './Access/signup.component';
 import { DemoRequestComponent } from './Access/demo-request.component';
 import { OurTeamComponent } from './Company/our-team.component';
