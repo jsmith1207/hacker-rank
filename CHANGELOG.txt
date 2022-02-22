@@ -1,0 +1,11 @@
+Main features:
+Built Base Home Layout for hackerrank.com 
+It included attributes such as:
+"TopNavBar", "MainNavBar", "ImgBar", "Footer" and "Information Sections"
+Also added 3 new layouts:
+"SignupComponent"
+"LoginComponent"
+"DemoRequestComponent"
+Using links throughout the home page I constructed 3 routes to those layouts
+
+Will be refactoring to better code functionality
