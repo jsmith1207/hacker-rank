@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './Access/login.component';
-import { HomeLayoutComponent } from './ProductsPage/home-layout.component';
+import { ProductLayoutComponent } from './ProductsPage/product-layout.component';
 import { SignupComponent } from './Access/signup.component';
 import { DemoRequestComponent } from './Access/demo-request.component';
 import { OurTeamComponent } from './Company/our-team.component';
+import { HomeLayoutComponent } from './HomePage/home-layout.component';
 
 const routes: Routes = [
   {
@@ -25,8 +26,8 @@ const routes: Routes = [
     path: 'access-account', component: LoginComponent
   },
   {
-    path: 'home',
-    component: HomeLayoutComponent
+    path: 'product',
+    component: ProductLayoutComponent
   }
 ];
 
