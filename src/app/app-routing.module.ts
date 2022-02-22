@@ -5,11 +5,15 @@ import { LoginComponent } from './Access/login.component';
 import { HomeLayoutComponent } from './Home Layout/home-layout.component';
 import { SignupComponent } from './Access/signup.component';
 import { DemoRequestComponent } from './Access/demo-request.component';
+import { OurTeamComponent } from './Company/our-team.component';
 
 const routes: Routes = [
   {
     path: '',
     component: HomeLayoutComponent
+  },
+  {
+    path: 'our-team',component: OurTeamComponent
   },
   {
     path: 'request-demo', component: DemoRequestComponent
