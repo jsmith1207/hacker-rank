@@ -22,6 +22,9 @@ import { HomeLayoutComponent } from './HomePage/home-layout.component';
 import { HeroComponent } from './HomePage/hero.component';
 import { FooterMainComponent } from './HomePage/footer-main.component';
 import { NavBarComponent } from './HomePage/NavBar.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -45,12 +48,14 @@ import { NavBarComponent } from './HomePage/NavBar.component';
     HomeLayoutComponent,
     HeroComponent,
     FooterMainComponent,
-    NavBarComponent
+    NavBarComponent,
+    UserInfoComponent,
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
